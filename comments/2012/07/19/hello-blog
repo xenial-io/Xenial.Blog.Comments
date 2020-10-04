@@ -136,6 +136,14 @@
       "Content": "dsfsdfdsfds",
       "Date": "2020-10-04T21:22:25.3604414+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4"
+    },
+    {
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "**bold**\n\n```cs\nnamespace Delegate.Blog\n{\n    public class Program\n    {\n        bool IsAlive => true;\n\n        [STAThread]\n        static void Main(string[] args)\n        {\n            while(IsAlive)\n                System.Console.WriteLine(\"Write Blog\");\n        }\n    }\n}\n```",
+      "Date": "2020-10-04T21:43:59.7817254+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4"
     }
   ]
 }
