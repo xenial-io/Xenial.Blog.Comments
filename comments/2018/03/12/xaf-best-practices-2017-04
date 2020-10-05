@@ -20,6 +20,16 @@
       "Date": "2020-10-05T15:33:00.5796494+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "ygXIueucCZbSVC52K6RA6O_nTVtthriWTNk1ksGBOpc",
+      "Name": "Nathan Pieper",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Nothing really and I hear ya, reflection isn't desired. In my use case, I have an inherited base BusinessObject class that implements change tracking (ModifiedBy/On, CreatedBy/On, DeletedBy/On. In the base class I can add the additional properties to expose the ViewIDs for any inherited BusinessObject",
+      "Date": "2020-10-05T15:33:15.3954419+02:00",
+      "AvatarUrl": null,
+      "Comments": []
     }
   ]
 }
