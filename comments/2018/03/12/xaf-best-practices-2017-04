@@ -1,0 +1,15 @@
+{
+  "Id": "2018/03/12/xaf-best-practices-2017-04",
+  "Comments": [
+    {
+      "Id": "nonFxCF8NAGwvioN31T8BkqXgy2XWMuieLxrPqrLiaQ",
+      "Name": "Nathan Pieper",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "I like the ViewID idea. I've expanded on your idea bit and included 3 additional properties to my BusinessObject classes.\n\n```cs\npublic static readonly string DetailViewId = ModelNodeIdHelper.GetDetailViewId(MethodBase.GetCurrentMethod().DeclaringType);\npublic static readonly string ListViewId = ModelNodeIdHelper.GetListViewId(MethodBase.GetCurrentMethod().DeclaringType);\npublic static readonly string LookupListViewId = ModelNodeIdHelper.GetDetailViewId(MethodBase.GetCurrentMethod().DeclaringType);\n```",
+      "Date": "2020-10-05T15:32:31.1496516+02:00",
+      "AvatarUrl": null,
+      "Comments": []
+    }
+  ]
+}
