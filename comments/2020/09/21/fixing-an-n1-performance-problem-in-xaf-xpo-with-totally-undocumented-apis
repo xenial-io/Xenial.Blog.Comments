@@ -7,7 +7,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Impressive. Great Work Manuel! . Thanks",
-      "Date": "2020-10-05T16:23:48.836213+02:00",
+      "Date": "2020-09-24T09:16:48.836213+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -17,7 +17,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Thank you Jacek!",
-      "Date": "2020-10-05T16:24:03.4122632+02:00",
+      "Date": "2020-09-24T09:46:03.4122632+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Great article Manuel, made even better by being able to refer to the actual code samples. Many thanks.",
-      "Date": "2020-10-05T16:24:20.8518788+02:00",
+      "Date": "2020-09-21T17:11:20.8518788+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -37,7 +37,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Thank you Dom! Hoped it helped!",
-      "Date": "2020-10-05T16:24:33.3164032+02:00",
+      "Date": "2020-09-21T19:58:33.3164032+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -47,7 +47,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Manuel, thank you for a comprehensive overview.\nSession.PreFetch is a supported:-) XPO feature that can also be used in XAF apps, for instance, to load associated collections ([https://docs.devexpress.com/XPO/DevExpress.Xpo.Session.PreFetch.overloads](https://docs.devexpress.com/XPO/DevExpress.Xpo.Session.PreFetch.overloads) In this case, all associated objects will be loaded in a single query. See an example here: [https://supportcenter.devexpress.com/ticket/details/q558707/how-do-i-prefetch-related-details-data-to-increase-performance-for-calculated-fields](https://supportcenter.devexpress.com/ticket/details/q558707/how-do-i-prefetch-related-details-data-to-increase-performance-for-calculated-fields) - just wanted to share a way to approach this using a Controller, not inside a persistent class.\n\nThis comparison of data access modes can also be helpful: [https://docs.devexpress.com/eXpressAppFramework/113683/concepts/ui-construction/views/list-view-data-access-modes](https://docs.devexpress.com/eXpressAppFramework/113683/concepts/ui-construction/views/list-view-data-access-modes)\n\nThanks,\nDennis",
-      "Date": "2020-10-05T16:26:52.1167335+02:00",
+      "Date": "2020-09-21T15:22:52.1167335+02:00",
       "AvatarUrl": "https://avatars2.githubusercontent.com/u/5479762?v=4",
       "Comments": []
     },
@@ -57,7 +57,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "I should correct that to: Not be supported out of the box and there are some untested scenarios. :)",
-      "Date": "2020-10-05T16:27:14.1850702+02:00",
+      "Date": "2020-09-21T16:03:14.1850702+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -67,7 +67,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Your karma has been restored:-)",
-      "Date": "2020-10-05T16:27:27.0038218+02:00",
+      "Date": "2020-09-23T16:46:27.0038218+02:00",
       "AvatarUrl": "https://avatars2.githubusercontent.com/u/5479762?v=4",
       "Comments": []
     },
@@ -77,7 +77,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "![https://media.giphy.com/media/PUBxelwT57jsQ/giphy.gif](https://media.giphy.com/media/PUBxelwT57jsQ/giphy.gif)",
-      "Date": "2020-10-05T16:28:48.6567831+02:00",
+      "Date": "2020-09-24T09:47:48.6567831+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -87,7 +87,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "As you stated: `Take special note that this code affects only initial loading and we do not have a good solution for the scenario when the ListView is refreshed via an Action or in code in an XAF Web application.` And thats what the N+N should solve though :D",
-      "Date": "2020-10-05T16:29:04.4432882+02:00",
+      "Date": "2020-09-21T20:03:04.4432882+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -97,7 +97,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "I wanted to cover Prefetch, as well as XPQuery and XPCursor as well, but this post was 3 days in the making, so I had to make tradeoffs 😅",
-      "Date": "2020-10-05T16:29:14.08434+02:00",
+      "Date": "2020-09-21T20:00:14.08434+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -107,7 +107,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Thanks for the great description of the different DataAccessModes",
-      "Date": "2020-10-05T16:29:28.6038518+02:00",
+      "Date": "2020-09-21T15:16:28.6038518+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -117,7 +117,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Thanks Nathan!",
-      "Date": "2020-10-05T16:29:44.5853368+02:00",
+      "Date": "2020-09-21T16:03:44.5853368+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     }
