@@ -7,7 +7,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://www.softwarebydesign.com.au/",
       "Content": "Hi Manuel\n\nWhen Azure DevOps tries to build my solution it seems that the following code is missing as assembly references:\n\n```cs\nDevExpress.ExpressApp.DC;\nDevExpress.ExpressApp.Updating;\nDevExpress.Persistent.BaseImpl.PermissionPolicy;\n```\n\nDennis explains that they should not be needed at\n[https://www.devexpress.com/Support/Center/Question/Details/T681058/missing-files-in-pdb-download#comment-dcf4b66f-f85e-43cf-9f91-ee6a9a133ccb:NjNVxEOGGP-CRzMw5dzOUP51KmI](https://www.devexpress.com/Support/Center/Question/Details/T681058/missing-files-in-pdb-download#comment-dcf4b66f-f85e-43cf-9f91-ee6a9a133ccb:NjNVxEOGGP-CRzMw5dzOUP51KmI)\n\nCould it be that DXNugetPackageBuilder is missing extracting them from DevExpress.ExpressApp and DevExpress.Persistent.BaseImpl ?",
-      "Date": "2020-10-05T10:06:29.8004122+02:00",
+      "Date": "2018-10-15T21:39:29.8004122+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
     },
@@ -17,7 +17,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://www.softwarebydesign.com.au/",
       "Content": "Hi Manuel\n\nWhen I run buildpackages.bat I get an error NU1102: Unable to find package Ookii.CommandLine with version (>=3.0.0) I tried installing v2.2.0 but when I build the solution with that I get a warning NU1701 Package 'Ookii.CommandLine 2.2.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'",
-      "Date": "2020-10-05T10:07:21.4196348+02:00",
+      "Date": "2018-10-12T21:34:21.4196348+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
     },
@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Hi Kirsten!\n\nWe recently updated the project to use dotnet core, seams Like i missed Something.\nI'll check the scripts and let you know what i missed.\nThanks for pointing this out!",
-      "Date": "2020-10-05T10:09:42.699009+02:00",
+      "Date": "2018-10-12T22:09:42.699009+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -37,7 +37,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://www.softwarebydesign.com.au/",
       "Content": "Thanks Manuel, I am so keen to get this working :-)\nI see there is a pull request for Ookii Command Line that is .net standard maybe I should try using that [https://github.com/SvenGroot/ookii.commandline/pull/1:kfeF-o72kJeA5_aFv2Hgyr66ufM](https://github.com/SvenGroot/ookii.commandline/pull/1:kfeF-o72kJeA5_aFv2Hgyr66ufM)",
-      "Date": "2020-10-05T10:08:32.3553813+02:00",
+      "Date": "2018-10-13T08:02:32.3553813+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
     },
@@ -47,7 +47,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://www.softwarebydesign.com.au/",
       "Content": "Thanks for sorting out an Ookii replacement. I seem to have created my nuget packages and got them into Azure DevOps alright, but when the pipeline runs it complains that namespace devexpress cound not be found for the ModelDifferenceAspects.cs Any ideas? [https://stackoverflow.com/questions/52772765/how-do-i-set-up-azure-dev-ops-to-build-dev-express-xaf-xpo-project:-aXpELkG65ROLxfuUfanpfI90tY](https://stackoverflow.com/questions/52772765/how-do-i-set-up-azure-dev-ops-to-build-dev-express-xaf-xpo-project:-aXpELkG65ROLxfuUfanpfI90tY)",
-      "Date": "2020-10-05T10:09:22.5562279+02:00",
+      "Date": "2018-10-14T06:25:22.5562279+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
     }
