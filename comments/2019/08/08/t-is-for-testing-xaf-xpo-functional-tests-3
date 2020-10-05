@@ -40,6 +40,16 @@
       "Date": "2020-10-05T15:58:20.9714102+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "iHJlMY58HmBEquyQKPD8mkdhBB1OcB-fvPlOJUz1SBA",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "@Andre S. That's an interesting question and you totally could (and probably) do that. As stated in my last article you should reuse as much as code in both \"worlds\" as much as possible. The only thing that would change is: You need to initialize the data layer differently (with an actual db connection), but now an interesting question arises.\n\nWhere to set the boundary of application layer code? Eg. do you want to initialize the testdata in the EasyTestProject or via remote injection inside the System under test.\n\nThat's a neat question and I'll write a follow up on that. Long words short answer: you can do both but both solutions have different drawbacks an depend on the application and complexity of the product.\n\nAnswer as a teaser: To initialize test data inside the `EasyTest.Tests` project: follow the normal route that you would use to initialize an application (reference the sut project, change the connectionstring's) and call application.Setup(). Afterwards you can call application.CreateObjectSpace() and do whatever you want with the database before and after you interact with the SUT.\n\nHOWEVER: Be aware: that will tangle and couple your functional tests with the SUT. That can be a problem with the nature of .NET remoting (in future versions they use named pipes).\n\nHope that answers you question so far and stay tuned for the follow up post for a deep dive!",
+      "Date": "2020-10-05T15:59:01.7402211+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
