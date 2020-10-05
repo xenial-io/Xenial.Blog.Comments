@@ -7,7 +7,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Great article! Thank you! I'm looking forward to part 3 of the series.\nI really like the ObjectSpaceProviderBuilder and the XpoTypeInfoSourceBuilder. But I'm not sure, if I like the XpObjectBuilder. Of course the fluent style of\n\n```cs\nvar johnDoe = new JohnDoePersonBuilder()\n   .WithObjectSpace<johndoepersonbuilder, person=\"\">(os)\n   .WithSalutation(\"Mrs.\")\n```\n\nlooks quite good. But it necessary to write a lot of stupid code for the builders. A simple static helper like\n\n```cs\nprivate static Person CreateJohnDoe(IObjectSpace os)\n{\n   var person = os.CreateObject<person>();\n   person.FirstName = \"John\";\n   person.LastName = \"Doe\";\n   person.Salutation = \"Mr.\";\n   return person;\n}\n...\n\nvar johnDoe = CreateJohnDoe(os);\njohnDoe.FirstName = \"Jane\";\n```\n\nwill also work. Because we should use public setters for the properties in XAF/XPO, the BuilderPattern does not bring much benefit.\nAm I missing something?",
-      "Date": "2020-10-05T15:47:08.2434392+02:00",
+      "Date": "2019-07-03T12:07:08.2434392+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -17,7 +17,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Hi Andre!\n\nThe main idea about the pattern is: you can change some aspects of the object in a specific test an be sure that no side effects occur.\n\nIn deed a simple helper is often enough, but as time fly's by and applications get larger and more complicated, so does test code. That's a code smell many teams miss.\n\nAnother example is for example: Take an entity Email, there is an incomming one and an outgoing one, both have different semantics (but share some properties) but are stored in the same table.\nWith 2 separate builders you can eliminate miss usage.\n\nBack to the testing example:\n\nImagine a project object. Each project has a kind property and a staff list containing the people working on it. Each staff can have a different role (manager and worker):\n\n```cs\nvar project = new ProjectBuilder()\n   .WithStaff(new JohnDoeManagerBuilder())\n   .WithStaff(new JaneDoeWorkerBuilder())\n   .WithKind(new ConstructionKindBuilder())\n   .Build();\n```\n\nIf the team agrees about the semantics, everybody knows what to expect and what defaults are set. Now you can take a shorthand and derive an DefaultProjectBuilder.\n\nBut if you use it and want to set a different kind for example:\n\n```cs\nvar medialDefaultProject = new DefaultProjectBuilder()\n   .WithKind(new MedicalKind())\n   .Build();\n```\n\nNo ConstructionKind is ever generated! So tests are focused and fast.\n\nHope this clears.\n\nPs.: Yeah it's a lot of code, but with some snipplet's or even code generators it's not that painful to maintain.\nPps: Builders should be focused on the domain problem not on the orm or data layer.",
-      "Date": "2020-10-05T15:48:31.2641252+02:00",
+      "Date": "2019-07-03T12:46:31.2641252+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "> No ConstructionKind is ever generated! So tests are focused and fast.\n\nDoes make sense. With my helper/extension method approach a ConstructionKind (and also all other references in the object graph of the ConstructionKind) would be created and later be replaced with the MedicalKind.\nSomehow ugly. But do you really expect to see a performance impact?\n\n> with some snipplet's or even code generators it's not that painful to maintain\n\nUsing t4 templates for the builders sounds like a nice approach.",
-      "Date": "2020-10-05T15:49:20.4963867+02:00",
+      "Date": "2019-07-03T13:31:20.4963867+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -37,7 +37,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "> Somehow ugly. But do you really expect to see a performance impact?\n\nIt's not only about performance, but rather having a clean dataset in memory. Less side effects for tests.\nPerformance wise: sure not with 100 tests, but if you've got 10000k or more sure! Sums up really quick with datadriven tests.\n\n> Using t4 templates for the builders sounds like a nice approach.\n\nCause I'm hard into dotnet core and msbuild right now (there is as far I know no T4) maybe a msbuild based version would be possible. Another option would be a roslyn analyzer with code fix!\n\nBut to be honest, I don't know it it would be worth the effort, cause builders can be rather complicated. But for a getting started it would be a huge timesaver.",
-      "Date": "2020-10-05T15:50:00.5802155+02:00",
+      "Date": "2019-07-03T13:52:00.5802155+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -47,7 +47,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "> Less side effects for tests.\n\nSorry to bother you, but could you explain this in more detail? Of course there are additional/orphaned records in the dataset. But the application shouldn't care. What side effects are possible?\n\n> there is as far I know no T4\n\nI think I also should start to work with dotnet core. I found t5 project for dotnet core. Don't know if it works...",
-      "Date": "2020-10-05T15:50:34.5269619+02:00",
+      "Date": "2019-07-03T14:07:34.5269619+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -57,7 +57,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "> Sorry to bother you, but could you explain this in more detail? Of course there are additional/orphaned records in the dataset. But the application shouldn't care. What side effects are possible?\n\nNo worries.\nIf you want to hear the meaning of an consultant: It depends.\nBut let me explain further:\nAn example I encountered not all to long ago:\n\nProject has a Kind Reference. They wanted to somehow group them together:\n\nThere are 3 kinds of project kinds (oh what a naming :D)\n\n```cs\nProjectKind.Kind = \"Construction\";\nProjectKind.Kind = \"Construction-Floor\";\nProjectKind.Kind = \"Construction-Roof\";\nProjectKind.Kind = \"Misc\";\n```\n\nThe task was to build a statistical model about their data grouped by Floor, Root and Misc kind. If its Construction it should be associated with the misc kind (cause they only wanted to know what's on the specific to calucate some costs).\nWith an naive implementation (written by a junior without the big picture in mind) it could look like:\n\n```cs\nvar floordata = Project.Kind.EndsWith(\"-Floor\")\nvar roofdata = Project.Kind.EndsWith(\"-Roof\")\nvar misc = Project.Kind.Equals(\"Misc\") || Project.Kind.Equals(\"Construction\")\n```\n\nBut in the default \"testhelper\" there where defined the default groups:\nConstruction-Floors and Construction-Roofs (it was in reality not that easy, but for simplicity i will stick with this now)\n\nSo the test code was like:\n\n```cs\nclass TestsForHyphenKind : BaseTest //BaseTest was the evil\n{\n\n   [Fact]\n   void CountsShouldBeCorrect()\n   {\n      InsertKind(\"Construction-Roof\");\n      InsertKind(\"Construction-Floor\");\n      InsertProject(\"Construction-Roof\");\n      InsertProject(\"Construction-Floor\");\n\n      var sut = new SystemUnderTest();\n      var result = sut.GroupByHyphen();\n\n      result[\"floor\"].Lenght.ShouldBe(1);\n      result[\"roof\"].Lenght.ShouldBe(1);\n      //Failed, 2 found 1 expected\n   }\n}\n```\n\nSo there where some data in the test database that nobody expected. The code written was totally correct, the test was lying. Cause there was data nobody expected.\n\nOf course this is a really special problem, it puzzeled 2 seniors, 1 junior (which had no idea what was wrong) and 1 consultant to isolate the problem.\n\nBut the main point is: They lost trust in tests and thats the MAIN problem. You never should loose trust in your tests.\nIsolation is key to keep trust in tests. (software development is hard enough. Getting a testcase in your head should be as easy as possible)\n\nHope that answeres your question.",
-      "Date": "2020-10-05T15:52:34.1764989+02:00",
+      "Date": "2019-07-03T14:30:34.1764989+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     }
