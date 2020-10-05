@@ -20,6 +20,16 @@
       "Date": "2020-10-05T10:24:42.5388839+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
+    },
+    {
+      "Id": "XzvXAasjdqIivnsFJ_B3wYMSUWL1SOG67-ntpsorjho",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Hi Kirsten!\n\nXAF doesnt Support .net core yet, but xpo does. The other Thing is the new csproj. This works very Well, Just use the .netstandard Templates.\n\nI try to make a Blogpost for further Clearance\n\n:)",
+      "Date": "2020-10-05T10:25:12.1476864+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
