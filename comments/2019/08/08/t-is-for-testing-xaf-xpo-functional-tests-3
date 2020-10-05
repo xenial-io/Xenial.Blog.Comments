@@ -30,6 +30,16 @@
       "Date": "2020-10-05T15:58:05.7002385+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "SLNu8DeQhPxPy5RFi84gl2xzlVGaphrF8kKCoNJtEIY",
+      "Name": "Andre S.",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Once again a great article! Thank you!\n\nBut I'm not happy with\ninitialization of test data in the ModuleUpdater. And I think it\nviolates your 'clean test data' idea. I would like to init the test data\nsomehow in the EasyTest.Tests project, but actually I don't have an\nidea how this could be done.\n\nWhat is your opinion?",
+      "Date": "2020-10-05T15:58:20.9714102+02:00",
+      "AvatarUrl": null,
+      "Comments": []
     }
   ]
 }
