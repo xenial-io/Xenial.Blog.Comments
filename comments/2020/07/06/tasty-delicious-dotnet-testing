@@ -10,6 +10,16 @@
       "Date": "2020-10-05T16:17:29.0733044+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "00Q91_skju5rW20rDHnXMtD3acpUSMQt911W_rDPNCY",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Uh that's a nice project, didn't know about Expecto! Seams very similar to what I try to build, cause there the test projects are normal (console) programs as well! CsCheck also looks very promising and as far I can tell, works with Tasty.\nFor the IDE integration: I need to look into that, but the current focus is on building a stable CLI and look into xml reporters. I don't care so much about IDE integration yet, cause troubleshooting a singe test case is covered nicely with the `focused` (or I also like to call it the f*ck this mode :D)",
+      "Date": "2020-10-05T16:17:56.3582266+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
