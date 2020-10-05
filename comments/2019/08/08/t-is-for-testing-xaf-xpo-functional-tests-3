@@ -1,0 +1,15 @@
+{
+  "Id": "2019/08/08/t-is-for-testing-xaf-xpo-functional-tests-3",
+  "Comments": [
+    {
+      "Id": "U0uqk68iCg7kcfBuhRxTgubNbp1w3lVnepABNTMUZ2g",
+      "Name": "vosip",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Why in `InMemoryDataStoreProvider` (which is inherited from `InMemoryDataStore`) declared `syncRoot` rather than using `SyncRoot` from base class `InMemoryDataStore`?",
+      "Date": "2020-10-05T15:57:20.6034136+02:00",
+      "AvatarUrl": null,
+      "Comments": []
+    }
+  ]
+}
