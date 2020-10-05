@@ -60,6 +60,16 @@
       "Date": "2020-10-05T16:00:17.1880677+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "a6B29JKwSTm3DLUqZ7XGOWFxSFZO5Ggzb1RnraXiayg",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "You are correct. That will not work if you work with an inmemory datastore.\nThere are different strategies to tackle that. Use for example an actual database that supports in memory storage (If your database supports that) or use a shared test database [or dockerize it](https://ardalis.com/running-integration-tests-in-build-pipelines-with-a-real-database:WE4MNucftTKUP-L0cN_Oiv_cf-I).\n\nYou also can implement a custom easytest command to execute the task inside the SUT.\nYou also can do something in between: use a file, an named socket, or whatever to indicate that the SUT should reset the InMemoryDataStore and load data from example a stream/XML file/ whatever.\nThis highly depends on the SUT design and level of test you are trying to cover.",
+      "Date": "2020-10-05T16:01:17.3071467+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
