@@ -7,8 +7,8 @@
       "GithubOrEmail": null,
       "Homepage": "https://www.softwarebydesign.com.au/",
       "Content": "Hi Manuel,\nThanks for an excellent post with heaps to learn from.\nI found that I need to set the startup object in the Cli project ( right click->Properties-> Application ) to my version of CliProgram , so as to avoid a \"Compile with /main to specify the type that contains the entry point\" error.\n\nI was unable to find the shared project template in VS 15.9.3 So I cloned the project from your solution.\nI asked about that at [https://stackoverflow.com/questions/53690103/missing-shared-visual-studio-project-template:Dk8xUijReaQQjjjx7dnFOp5LT0M](https://stackoverflow.com/questions/53690103/missing-shared-visual-studio-project-template:Dk8xUijReaQQjjjx7dnFOp5LT0M)\n\nAlso when I upgraded my clone of your solution I had an issue with the Nuget upgrade.\n[https://www.devexpress.com/Support/Center/Question/Details/T698381/nu1102-unable-to-find-package-devexpress-xtrareports-with-version-18-2-3:gIqVCSBS4_DBo4cLvjKUhN4-_SQ](https://www.devexpress.com/Support/Center/Question/Details/T698381/nu1102-unable-to-find-package-devexpress-xtrareports-with-version-18-2-3:gIqVCSBS4_DBo4cLvjKUhN4-_SQ)\n\n[https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net:dCQY-JwyAlzTs12-bFNkpepafjk](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net:dCQY-JwyAlzTs12-bFNkpepafjk) was also helpful to create the package\n\nKirsten",
-      "Date": "2020-10-05T15:25:43.6190296+02:00",
-      "AvatarUrl": null,
+      "Date": "2018-12-11T18:05:43.6190296+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
     },
     {
@@ -17,7 +17,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Hi Manuel,\n\nVery well thought. A lot of small details that will really help structure my app and avoid unforeseen problems! Thanks again for this awesome post. A quick question, how do you structure your controller when for example you want to share an action between two BO types that don't share the same base class (other than baseobject)? I use a lot of interfaces like IThumbnail and my ViewController's is set like this `TargetObjectType = typeof(IThumbnail);`\n\nAlex",
-      "Date": "2020-10-05T15:26:49.1192234+02:00",
+      "Date": "2018-03-10T21:48:49.1192234+02:00",
       "AvatarUrl": "https://avatars2.githubusercontent.com/u/11443637?v=4",
       "Comments": []
     },
@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Hi Alex! Thanks for your Feedback. Short: avoid It. I'll Cover this in the next Post!\n\nThanks for your Support :)",
-      "Date": "2020-10-05T15:27:27.219357+02:00",
+      "Date": "2018-03-10T23:06:27.219357+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     }
