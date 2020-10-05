@@ -40,6 +40,16 @@
       "Date": "2020-10-05T16:24:33.3164032+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "_FG8Gw-_KZlm5MvPK3LS5RAjr8q6PXVH-_e5YgQSua4",
+      "Name": "Dennis Garavsky",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Manuel, thank you for a comprehensive overview.\nSession.PreFetch is a supported:-) XPO feature that can also be used in XAF apps, for instance, to load associated collections ([https://docs.devexpress.com/XPO/DevExpress.Xpo.Session.PreFetch.overloads](https://docs.devexpress.com/XPO/DevExpress.Xpo.Session.PreFetch.overloads) In this case, all associated objects will be loaded in a single query. See an example here: [https://supportcenter.devexpress.com/ticket/details/q558707/how-do-i-prefetch-related-details-data-to-increase-performance-for-calculated-fields](https://supportcenter.devexpress.com/ticket/details/q558707/how-do-i-prefetch-related-details-data-to-increase-performance-for-calculated-fields) - just wanted to share a way to approach this using a Controller, not inside a persistent class.\n\nThis comparison of data access modes can also be helpful: [https://docs.devexpress.com/eXpressAppFramework/113683/concepts/ui-construction/views/list-view-data-access-modes](https://docs.devexpress.com/eXpressAppFramework/113683/concepts/ui-construction/views/list-view-data-access-modes)\n\nThanks,\nDennis",
+      "Date": "2020-10-05T16:26:52.1167335+02:00",
+      "AvatarUrl": "https://avatars2.githubusercontent.com/u/5479762?v=4",
+      "Comments": []
     }
   ]
 }
