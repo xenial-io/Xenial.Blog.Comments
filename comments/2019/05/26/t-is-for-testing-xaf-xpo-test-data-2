@@ -50,6 +50,16 @@
       "Date": "2020-10-05T15:50:34.5269619+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "lyuYCsTsVdf7EH8E9pAkSynlV4lxMPo0Ka9ayvElhmA",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "> Sorry to bother you, but could you explain this in more detail? Of course there are additional/orphaned records in the dataset. But the application shouldn't care. What side effects are possible?\n\nNo worries.\nIf you want to hear the meaning of an consultant: It depends.\nBut let me explain further:\nAn example I encountered not all to long ago:\n\nProject has a Kind Reference. They wanted to somehow group them together:\n\nThere are 3 kinds of project kinds (oh what a naming :D)\n\n```cs\nProjectKind.Kind = \"Construction\";\nProjectKind.Kind = \"Construction-Floor\";\nProjectKind.Kind = \"Construction-Roof\";\nProjectKind.Kind = \"Misc\";\n```\n\nThe task was to build a statistical model about their data grouped by Floor, Root and Misc kind. If its Construction it should be associated with the misc kind (cause they only wanted to know what's on the specific to calucate some costs).\nWith an naive implementation (written by a junior without the big picture in mind) it could look like:\n\n```cs\nvar floordata = Project.Kind.EndsWith(\"-Floor\")\nvar roofdata = Project.Kind.EndsWith(\"-Roof\")\nvar misc = Project.Kind.Equals(\"Misc\") || Project.Kind.Equals(\"Construction\")\n```\n\nBut in the default \"testhelper\" there where defined the default groups:\nConstruction-Floors and Construction-Roofs (it was in reality not that easy, but for simplicity i will stick with this now)\n\nSo the test code was like:\n\n```cs\nclass TestsForHyphenKind : BaseTest //BaseTest was the evil\n{\n\n   [Fact]\n   void CountsShouldBeCorrect()\n   {\n      InsertKind(\"Construction-Roof\");\n      InsertKind(\"Construction-Floor\");\n      InsertProject(\"Construction-Roof\");\n      InsertProject(\"Construction-Floor\");\n\n      var sut = new SystemUnderTest();\n      var result = sut.GroupByHyphen();\n\n      result[\"floor\"].Lenght.ShouldBe(1);\n      result[\"roof\"].Lenght.ShouldBe(1);\n      //Failed, 2 found 1 expected\n   }\n}\n```\n\nSo there where some data in the test database that nobody expected. The code written was totally correct, the test was lying. Cause there was data nobody expected.\n\nOf course this is a really special problem, it puzzeled 2 seniors, 1 junior (which had no idea what was wrong) and 1 consultant to isolate the problem.\n\nBut the main point is: They lost trust in tests and thats the MAIN problem. You never should loose trust in your tests.\nIsolation is key to keep trust in tests. (software development is hard enough. Getting a testcase in your head should be as easy as possible)\n\nHope that answeres your question.",
+      "Date": "2020-10-05T15:52:34.1764989+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
