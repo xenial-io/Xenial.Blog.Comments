@@ -80,6 +80,16 @@
       "Date": "2020-10-05T16:28:48.6567831+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "Cte6pqg3PR7AamvKfcprdecqmZXgemSx3_iTEKvBbO4",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "As you stated: `Take special note that this code affects only initial loading and we do not have a good solution for the scenario when the ListView is refreshed via an Action or in code in an XAF Web application.` And thats what the N+N should solve though :D",
+      "Date": "2020-10-05T16:29:04.4432882+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
