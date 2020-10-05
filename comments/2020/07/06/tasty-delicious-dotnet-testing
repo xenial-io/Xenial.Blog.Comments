@@ -1,0 +1,15 @@
+{
+  "Id": "2020/07/06/tasty-delicious-dotnet-testing",
+  "Comments": [
+    {
+      "Id": "tI8L4FP1FB0knBee-R_odzHBsQUtnjrYqTDA5dd0VP0",
+      "Name": "Anthony Lloyd",
+      "GithubOrEmail": null,
+      "Homepage": "https://anthonylloyd.github.io/",
+      "Content": "Very interesting. You may want to look at Expecto for some ideas and I've also recently released CsCheck which has some new too. I am thinking if it's possible to build something Expecto like in C# using any of the testing frameworks underneath (so IDE integration for free) and using CsCheck also.",
+      "Date": "2020-10-05T16:17:29.0733044+02:00",
+      "AvatarUrl": null,
+      "Comments": []
+    }
+  ]
+}
