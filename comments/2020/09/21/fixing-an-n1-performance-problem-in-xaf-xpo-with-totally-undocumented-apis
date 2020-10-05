@@ -50,6 +50,16 @@
       "Date": "2020-10-05T16:26:52.1167335+02:00",
       "AvatarUrl": "https://avatars2.githubusercontent.com/u/5479762?v=4",
       "Comments": []
+    },
+    {
+      "Id": "xVPzUatdl_mrq-mckWHCVfDkeT9KMIw9HnPlMQEfgxM",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "I should correct that to: Not be supported out of the box and there are some untested scenarios. :)",
+      "Date": "2020-10-05T16:27:14.1850702+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
