@@ -1,0 +1,15 @@
+{
+  "Id": "2016/02/26/nuget-packages-devexpress-components",
+  "Comments": [
+    {
+      "Id": "pCjPdLHChGUIvpH4uZ8kQ6hAb4px-dIemE_yJPq_mpc",
+      "Name": "Kirsten Greed",
+      "GithubOrEmail": null,
+      "Homepage": "https://www.softwarebydesign.com.au/",
+      "Content": "Hi Manuel\n\nWhen Azure DevOps tries to build my solution it seems that the following code is missing as assembly references:\n\n```cs\nDevExpress.ExpressApp.DC;\nDevExpress.ExpressApp.Updating;\nDevExpress.Persistent.BaseImpl.PermissionPolicy;\n```\n\nDennis explains that they should not be needed at\n[https://www.devexpress.com/Support/Center/Question/Details/T681058/missing-files-in-pdb-download#comment-dcf4b66f-f85e-43cf-9f91-ee6a9a133ccb:NjNVxEOGGP-CRzMw5dzOUP51KmI](https://www.devexpress.com/Support/Center/Question/Details/T681058/missing-files-in-pdb-download#comment-dcf4b66f-f85e-43cf-9f91-ee6a9a133ccb:NjNVxEOGGP-CRzMw5dzOUP51KmI)\n\nCould it be that DXNugetPackageBuilder is missing extracting them from DevExpress.ExpressApp and DevExpress.Persistent.BaseImpl ?",
+      "Date": "2020-10-05T10:06:29.8004122+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
+      "Comments": []
+    }
+  ]
+}
