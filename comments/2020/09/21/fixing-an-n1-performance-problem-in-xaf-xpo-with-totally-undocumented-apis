@@ -90,6 +90,16 @@
       "Date": "2020-10-05T16:29:04.4432882+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "Go6gRIDIBbGmWWNumpiCcgISveTQUvM1OGdTb68HlB0",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "I wanted to cover Prefetch, as well as XPQuery and XPCursor as well, but this post was 3 days in the making, so I had to make tradeoffs 😅",
+      "Date": "2020-10-05T16:29:14.08434+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
