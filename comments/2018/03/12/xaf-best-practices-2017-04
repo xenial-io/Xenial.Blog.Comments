@@ -7,7 +7,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "I like the ViewID idea. I've expanded on your idea bit and included 3 additional properties to my BusinessObject classes.\n\n```cs\npublic static readonly string DetailViewId = ModelNodeIdHelper.GetDetailViewId(MethodBase.GetCurrentMethod().DeclaringType);\npublic static readonly string ListViewId = ModelNodeIdHelper.GetListViewId(MethodBase.GetCurrentMethod().DeclaringType);\npublic static readonly string LookupListViewId = ModelNodeIdHelper.GetDetailViewId(MethodBase.GetCurrentMethod().DeclaringType);\n```",
-      "Date": "2020-10-05T15:32:31.1496516+02:00",
+      "Date": "2019-10-26T16:51:31.1496516+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -17,7 +17,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Thanks!\n\nWhat speaks against `ModelNodeIdHelper.GetDetailViewId(typeof(BusinessObject));`?\nThat way you avoid the reflection call.",
-      "Date": "2020-10-05T15:33:00.5796494+02:00",
+      "Date": "2019-10-26T17:23:00.5796494+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Nothing really and I hear ya, reflection isn't desired. In my use case, I have an inherited base BusinessObject class that implements change tracking (ModifiedBy/On, CreatedBy/On, DeletedBy/On. In the base class I can add the additional properties to expose the ViewIDs for any inherited BusinessObject",
-      "Date": "2020-10-05T15:33:15.3954419+02:00",
+      "Date": "2019-10-29T11:34:15.3954419+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -37,7 +37,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Okay yeah that makes sense!",
-      "Date": "2020-10-05T15:33:32.6113267+02:00",
+      "Date": "2019-10-30T17:58:32.6113267+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     }
