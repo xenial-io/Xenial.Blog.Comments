@@ -20,6 +20,16 @@
       "Date": "2020-10-05T15:48:31.2641252+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "Silrt2Q0HofMX_tfX3WcXJSMvnS2qwhXW52irtSRmwU",
+      "Name": "Andre S.",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "> No ConstructionKind is ever generated! So tests are focused and fast.\n\nDoes make sense. With my helper/extension method approach a ConstructionKind (and also all other references in the object graph of the ConstructionKind) would be created and later be replaced with the MedicalKind.\nSomehow ugly. But do you really expect to see a performance impact?\n\n> with some snipplet's or even code generators it's not that painful to maintain\n\nUsing t4 templates for the builders sounds like a nice approach.",
+      "Date": "2020-10-05T15:49:20.4963867+02:00",
+      "AvatarUrl": null,
+      "Comments": []
     }
   ]
 }
