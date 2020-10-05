@@ -1,0 +1,15 @@
+{
+  "Id": "2019/03/25/use-the-microsoft-botframework-webchat-react-component-in-vue-js",
+  "Comments": [
+    {
+      "Id": "nktFsVoo0uUpdHPAwkmVWa0SooHnrpKFHDCb6eWlsBc",
+      "Name": "Björn Pehrsson",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Hey nice write up!\nI'm trying to follow but cant make it work completely. This line in Chat.vue \"this.webchatStore = createStore({}, middleware);\" gives me the following error in the console: \"TypeError: Cannot call a class as a function\". If I leave it out the error disappears.\nAny ideas on how to fix this?",
+      "Date": "2020-10-05T15:40:59.7012622+02:00",
+      "AvatarUrl": null,
+      "Comments": []
+    }
+  ]
+}
