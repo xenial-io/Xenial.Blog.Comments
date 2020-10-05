@@ -28,17 +28,16 @@
       "Content": "Great article Manuel, made even better by being able to refer to the actual code samples. Many thanks.",
       "Date": "2020-09-21T17:11:20.8518788+02:00",
       "AvatarUrl": null,
-      "Comments": []
-    },
-    {
-      "Id": "uRIjEEKFRqeH_ZUI64Vlcj0EaC1SG-braYaKsSrrF_c",
-      "Name": "Manuel Grundner",
-      "GithubOrEmail": null,
-      "Homepage": "https://blog.delegate.at",
-      "Content": "Thank you Dom! Hoped it helped!",
-      "Date": "2020-09-21T19:58:33.3164032+02:00",
-      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
-      "Comments": []
+      "Comments": [{
+        "Id": "uRIjEEKFRqeH_ZUI64Vlcj0EaC1SG-braYaKsSrrF_c",
+        "Name": "Manuel Grundner",
+        "GithubOrEmail": null,
+        "Homepage": "https://blog.delegate.at",
+        "Content": "Thank you Dom! Hoped it helped!",
+        "Date": "2020-09-21T19:58:33.3164032+02:00",
+        "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+        "Comments": []
+      }]
     },
     {
       "Id": "_FG8Gw-_KZlm5MvPK3LS5RAjr8q6PXVH-_e5YgQSua4",
