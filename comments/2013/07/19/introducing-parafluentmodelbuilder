@@ -23,7 +23,7 @@
       "Homepage": "https://blog.delegate.at",
       "Content": "From the technical perspective the only thing it does is:\n\n```cs\npublic sealed partial class TestModule : ModuleBase\n{\n    public override void CustomizeTypesInfo(ITypesInfo typesInfo)\n    {\n        base.CustomizeTypesInfo(typesInfo);\n\n        var typeinfo = typesInfo.FindType(typeof(YourObject));\n\n        typeinfo.AddAttribute(new ModelDefaultAttribute(\"Caption\", \"Car\"));\n\n        var memberInfo = typeinfo.FindMember(\"Doors\");\n\n        memberInfo.AddAttribute(new ModelDefaultAttribute(\"Caption\", \"Doors\"));\n\n        typesInfo.RefreshTypeInfo(typeinfo);\n    }\n}\n```",
       "Date": "2013-07-20T09:19:57.2456415+02:00",
-      "AvatarUrl": null
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4"
     }
   ]
 }
