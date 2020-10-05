@@ -30,6 +30,16 @@
       "Date": "2020-10-05T10:08:32.3553813+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
+    },
+    {
+      "Id": "YAAIXwPRCK3g8lc7cNSb7vasJ5ax4xVZOo4Edyt0K8g",
+      "Name": "Kirsten Greed",
+      "GithubOrEmail": null,
+      "Homepage": "https://www.softwarebydesign.com.au/",
+      "Content": "Thanks for sorting out an Ookii replacement. I seem to have created my nuget packages and got them into Azure DevOps alright, but when the pipeline runs it complains that namespace devexpress cound not be found for the ModelDifferenceAspects.cs Any ideas? [https://stackoverflow.com/questions/52772765/how-do-i-set-up-azure-dev-ops-to-build-dev-express-xaf-xpo-project:-aXpELkG65ROLxfuUfanpfI90tY](https://stackoverflow.com/questions/52772765/how-do-i-set-up-azure-dev-ops-to-build-dev-express-xaf-xpo-project:-aXpELkG65ROLxfuUfanpfI90tY)",
+      "Date": "2020-10-05T10:09:22.5562279+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
+      "Comments": []
     }
   ]
 }
