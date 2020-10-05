@@ -20,6 +20,16 @@
       "Date": "2020-10-05T15:41:28.6320899+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "wsmItmG-2QMor_Ff_uonGcNOamm7rMbk_bTNEowoXdU",
+      "Name": "Björn Pehrsson",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "I figured it out now. The problem was i missed the curly braces in the import statement for vuera. Thanks for helping out!",
+      "Date": "2020-10-05T15:41:43.0321278+02:00",
+      "AvatarUrl": null,
+      "Comments": []
     }
   ]
 }
