@@ -20,6 +20,16 @@
       "Date": "2020-10-05T15:57:37.2235665+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "GeKoTXouUBLpb-suJeuai6I5c2x7q9XTgE3JHyBjTQE",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "I'm not 100% sure. I guess as the time of writing there was no SyncRoot at the time. But it also is possible it's just an mistake. Nothing that breaks tough, but a good catch.",
+      "Date": "2020-10-05T15:58:05.7002385+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
