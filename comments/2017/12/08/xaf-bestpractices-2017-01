@@ -10,6 +10,16 @@
       "Date": "2020-10-05T10:24:16.7396717+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "cy0tyAo3U7UYhe328CKX5zOO56lESV0kPgA3iLkl_fA",
+      "Name": "Kirsten Greed",
+      "GithubOrEmail": null,
+      "Homepage": "https://www.softwarebydesign.com.au/",
+      "Content": "Thanks for the clarification :-) I will look forward to the post. Instructions on how to use the .netstandard Templates would be great!",
+      "Date": "2020-10-05T10:24:42.5388839+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
+      "Comments": []
     }
   ]
 }
