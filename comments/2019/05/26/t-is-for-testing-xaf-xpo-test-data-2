@@ -10,6 +10,16 @@
       "Date": "2020-10-05T15:47:08.2434392+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "zA3uUsIK6wbulgkshIhLYUBYR37fMd9Atn95-vKXnv8",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Hi Andre!\n\nThe main idea about the pattern is: you can change some aspects of the object in a specific test an be sure that no side effects occur.\n\nIn deed a simple helper is often enough, but as time fly's by and applications get larger and more complicated, so does test code. That's a code smell many teams miss.\n\nAnother example is for example: Take an entity Email, there is an incomming one and an outgoing one, both have different semantics (but share some properties) but are stored in the same table.\nWith 2 separate builders you can eliminate miss usage.\n\nBack to the testing example:\n\nImagine a project object. Each project has a kind property and a staff list containing the people working on it. Each staff can have a different role (manager and worker):\n\n```cs\nvar project = new ProjectBuilder()\n   .WithStaff(new JohnDoeManagerBuilder())\n   .WithStaff(new JaneDoeWorkerBuilder())\n   .WithKind(new ConstructionKindBuilder())\n   .Build();\n```\n\nIf the team agrees about the semantics, everybody knows what to expect and what defaults are set. Now you can take a shorthand and derive an DefaultProjectBuilder.\n\nBut if you use it and want to set a different kind for example:\n\n```cs\nvar medialDefaultProject = new DefaultProjectBuilder()\n   .WithKind(new MedicalKind())\n   .Build();\n```\n\nNo ConstructionKind is ever generated! So tests are focused and fast.\n\nHope this clears.\n\nPs.: Yeah it's a lot of code, but with some snipplet's or even code generators it's not that painful to maintain.\nPps: Builders should be focused on the domain problem not on the orm or data layer.",
+      "Date": "2020-10-05T15:48:31.2641252+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
