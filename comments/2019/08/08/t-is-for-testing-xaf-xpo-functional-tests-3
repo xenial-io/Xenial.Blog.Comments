@@ -50,6 +50,16 @@
       "Date": "2020-10-05T15:59:01.7402211+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "vFy4XemYjHt3f5J619fYLOt-0fi9j6pxjSqAvVZbqgg",
+      "Name": "Andre S.",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": ">To initialize test data inside the `EasyTest.Tests` project: follow the\nnormal route that you would use to initialize an application (reference\nthe sut project, change the connectionstring's) and call\napplication.Setup(). Afterwards you can call\napplication.CreateObjectSpace() and do whatever you want with the\ndatabase\n\nThank you. But this approach won't work with the InMemoryDataStore, will it? The SUT runs in another process/app domain and therefore the SUT uses an own instance of the InMemoryDataBase. Am I missing something?",
+      "Date": "2020-10-05T16:00:17.1880677+02:00",
+      "AvatarUrl": null,
+      "Comments": []
     }
   ]
 }
