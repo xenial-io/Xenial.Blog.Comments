@@ -7,7 +7,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Amazing stuff Manuel. Thanks for taking the time to write and share this. Best use of CallerMemberName ever! Time to rename my main module to God.Module ;)",
-      "Date": "2020-10-05T15:10:29.6900178+02:00",
+      "Date": "2018-02-21T17:51:29.6900178+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -17,7 +17,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Hi Manuel,\n\nI'm explicitly moving my editors declaration to the module RegisterEditorDescriptors instead of using the PropertyEditor attribute. I was wondering, in what context would the RegisterPropertyEditorAlias isDefaultAlias be different than the RegisterPropertyEditor isDefaultEditor? With the PropertyEditor we only supply the isDefaultEditor.\n\nThanks!\n\nAlex",
-      "Date": "2020-10-05T15:10:47.0178802+02:00",
+      "Date": "2018-04-12T22:44:47.0178802+02:00",
       "AvatarUrl": "https://avatars2.githubusercontent.com/u/11443637?v=4",
       "Comments": []
     },
@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Thanks Alex!\nStay tuned for more cool stuff :)",
-      "Date": "2020-10-05T15:11:09.6025693+02:00",
+      "Date": "2018-02-21T18:11:09.6025693+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     }
