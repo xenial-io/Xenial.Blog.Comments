@@ -10,6 +10,16 @@
       "Date": "2020-10-05T15:40:59.7012622+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "8Obo9KEQN3DOZbSEpQBzSoowTv9nwePMVKGeqGTjJOg",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Thanks! Did you just clone the repo? Which browser? I just tried it with a fresh clone and google chrome, so everything works as expected. If you tried to integrate yourself, check the NPM package version of webchat, maybe they had an breaking change (happens more often than I expect from microsoft) if it expects a class, maybe they are returning an constructor instead, so a new should fix it. Also make sure, your import statements are correct.\n\nYou can also try to debug with DevTools and look what createStore actually is in your case. I just guess your import statement is wrong.",
+      "Date": "2020-10-05T15:41:28.6320899+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
