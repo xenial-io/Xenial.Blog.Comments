@@ -10,6 +10,16 @@
       "Date": "2020-10-05T10:06:29.8004122+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
+    },
+    {
+      "Id": "Td5He_5Roz5a1YtxNjB-p-gcWj-0a622i4rbT2JVkzk",
+      "Name": "Kirsten Greed",
+      "GithubOrEmail": null,
+      "Homepage": "https://www.softwarebydesign.com.au/",
+      "Content": "Hi Manuel\n\nWhen I run buildpackages.bat I get an error NU1102: Unable to find package Ookii.CommandLine with version (>=3.0.0) I tried installing v2.2.0 but when I build the solution with that I get a warning NU1701 Package 'Ookii.CommandLine 2.2.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'",
+      "Date": "2020-10-05T10:07:21.4196348+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
+      "Comments": []
     }
   ]
 }
