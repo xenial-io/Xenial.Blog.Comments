@@ -40,6 +40,16 @@
       "Date": "2020-10-05T15:41:58.1679477+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "VoUULAEd-LZ2UWcXcS25FSryu6h-DFCtmUaFq8StsWA",
+      "Name": "Björn Pehrsson",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Sorry I wasn't clear, I'm trying to integrate it in an existing project. When I tried a clone of your project it works just fine so I must have gotten some part wrong or I might have other things interfering. I will study your code and try to figure out where I went wrong.\n\nOh, and thanks for the quick reply!",
+      "Date": "2020-10-05T15:42:14.2800968+02:00",
+      "AvatarUrl": null,
+      "Comments": []
     }
   ]
 }
