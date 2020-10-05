@@ -7,7 +7,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Why in `InMemoryDataStoreProvider` (which is inherited from `InMemoryDataStore`) declared `syncRoot` rather than using `SyncRoot` from base class `InMemoryDataStore`?",
-      "Date": "2020-10-05T15:57:20.6034136+02:00",
+      "Date": "2020-03-19T13:44:20.6034136+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -17,7 +17,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Altough i think locking is an implementation detail, that shouldn't be shared across inheritance levels.",
-      "Date": "2020-10-05T15:57:37.2235665+02:00",
+      "Date": "2020-03-19T14:10:37.2235665+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "I'm not 100% sure. I guess as the time of writing there was no SyncRoot at the time. But it also is possible it's just an mistake. Nothing that breaks tough, but a good catch.",
-      "Date": "2020-10-05T15:58:05.7002385+02:00",
+      "Date": "2020-03-19T14:04:05.7002385+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -37,7 +37,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Once again a great article! Thank you!\n\nBut I'm not happy with\ninitialization of test data in the ModuleUpdater. And I think it\nviolates your 'clean test data' idea. I would like to init the test data\nsomehow in the EasyTest.Tests project, but actually I don't have an\nidea how this could be done.\n\nWhat is your opinion?",
-      "Date": "2020-10-05T15:58:20.9714102+02:00",
+      "Date": "2020-01-28T21:31:20.9714102+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -47,7 +47,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "@Andre S. That's an interesting question and you totally could (and probably) do that. As stated in my last article you should reuse as much as code in both \"worlds\" as much as possible. The only thing that would change is: You need to initialize the data layer differently (with an actual db connection), but now an interesting question arises.\n\nWhere to set the boundary of application layer code? Eg. do you want to initialize the testdata in the EasyTestProject or via remote injection inside the System under test.\n\nThat's a neat question and I'll write a follow up on that. Long words short answer: you can do both but both solutions have different drawbacks an depend on the application and complexity of the product.\n\nAnswer as a teaser: To initialize test data inside the `EasyTest.Tests` project: follow the normal route that you would use to initialize an application (reference the sut project, change the connectionstring's) and call application.Setup(). Afterwards you can call application.CreateObjectSpace() and do whatever you want with the database before and after you interact with the SUT.\n\nHOWEVER: Be aware: that will tangle and couple your functional tests with the SUT. That can be a problem with the nature of .NET remoting (in future versions they use named pipes).\n\nHope that answers you question so far and stay tuned for the follow up post for a deep dive!",
-      "Date": "2020-10-05T15:59:01.7402211+02:00",
+      "Date": "2020-01-29T12:38:01.7402211+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -57,7 +57,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": ">To initialize test data inside the `EasyTest.Tests` project: follow the\nnormal route that you would use to initialize an application (reference\nthe sut project, change the connectionstring's) and call\napplication.Setup(). Afterwards you can call\napplication.CreateObjectSpace() and do whatever you want with the\ndatabase\n\nThank you. But this approach won't work with the InMemoryDataStore, will it? The SUT runs in another process/app domain and therefore the SUT uses an own instance of the InMemoryDataBase. Am I missing something?",
-      "Date": "2020-10-05T16:00:17.1880677+02:00",
+      "Date": "2020-02-03T12:40:17.1880677+02:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -67,7 +67,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "You are correct. That will not work if you work with an inmemory datastore.\nThere are different strategies to tackle that. Use for example an actual database that supports in memory storage (If your database supports that) or use a shared test database [or dockerize it](https://ardalis.com/running-integration-tests-in-build-pipelines-with-a-real-database:WE4MNucftTKUP-L0cN_Oiv_cf-I).\n\nYou also can implement a custom easytest command to execute the task inside the SUT.\nYou also can do something in between: use a file, an named socket, or whatever to indicate that the SUT should reset the InMemoryDataStore and load data from example a stream/XML file/ whatever.\nThis highly depends on the SUT design and level of test you are trying to cover.",
-      "Date": "2020-10-05T16:01:17.3071467+02:00",
+      "Date": "2020-02-03T13:05:17.3071467+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     }
