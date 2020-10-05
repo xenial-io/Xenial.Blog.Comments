@@ -1,0 +1,13 @@
+{
+  "Id": "2013/07/19/introducing-parafluentmodelbuilder",
+  "Comments": [
+    {
+      "Name": "Apostolis Bekiaris",
+      "GithubOrEmail": null,
+      "Homepage": "https://apobekiaris.blogspot.com/",
+      "Content": "Looks great but i do have a question, what about the Application Model it self? There you can do much more than any framework, it is more flexible and multilayered. I m interested to know why your team prefers to invent a code replacement of the amazing XAF application model. You can simply have many models and apply them as you wish. In eXpand as you probably know there are Global Application and Role models as well. Even multiple design time models are possible as you can see in [xaf-models-xaf-models-and-again-xaf](https://apobekiaris.blogspot.gr/2010/08/xaf-models-xaf-models-and-again-xaf.html)",
+      "Date": "2020-10-05T09:15:04.0542836+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/159464?v=4"
+    }
+  ]
+}
