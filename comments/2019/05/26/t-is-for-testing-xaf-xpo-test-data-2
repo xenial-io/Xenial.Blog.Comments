@@ -40,6 +40,16 @@
       "Date": "2020-10-05T15:50:00.5802155+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "6LhWpfn2vac9dASN2sDetLI6QLqqwBpCKuYr0jDNDvY",
+      "Name": "Andre S.",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "> Less side effects for tests.\n\nSorry to bother you, but could you explain this in more detail? Of course there are additional/orphaned records in the dataset. But the application shouldn't care. What side effects are possible?\n\n> there is as far I know no T4\n\nI think I also should start to work with dotnet core. I found t5 project for dotnet core. Don't know if it works...",
+      "Date": "2020-10-05T15:50:34.5269619+02:00",
+      "AvatarUrl": null,
+      "Comments": []
     }
   ]
 }
