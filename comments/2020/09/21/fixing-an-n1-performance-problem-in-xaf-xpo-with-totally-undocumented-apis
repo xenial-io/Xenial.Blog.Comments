@@ -107,17 +107,16 @@
       "Content": "Thanks for the great description of the different DataAccessModes",
       "Date": "2020-09-21T15:16:28.6038518+02:00",
       "AvatarUrl": null,
-      "Comments": []
-    },
-    {
-      "Id": "R5e3S7NUYgz5RTiQI8ZEewFIFyz8or_FB2qtDy8I4yc",
-      "Name": "Manuel Grundner",
-      "GithubOrEmail": null,
-      "Homepage": "https://blog.delegate.at",
-      "Content": "Thanks Nathan!",
-      "Date": "2020-09-21T16:03:44.5853368+02:00",
-      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
-      "Comments": []
+      "Comments": [  {
+        "Id": "R5e3S7NUYgz5RTiQI8ZEewFIFyz8or_FB2qtDy8I4yc",
+        "Name": "Manuel Grundner",
+        "GithubOrEmail": null,
+        "Homepage": "https://blog.delegate.at",
+        "Content": "Thanks Nathan!",
+        "Date": "2020-09-21T16:03:44.5853368+02:00",
+        "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+        "Comments": []
+      }]
     }
   ]
 }
