@@ -40,6 +40,16 @@
       "Date": "2020-10-05T10:25:21.5233666+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "TxN5HMTFP9waiqRmaJnLOex-YT0bNDj8kK11GLncIW8",
+      "Name": "Alex Miller",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Thanks for sharing your methodology Manuel. This will come very handy when I tackle my todo item to split my huge base module into smaller more manageable modules. I look forward to the rest of the series.",
+      "Date": "2020-10-05T10:26:25.7318775+02:00",
+      "AvatarUrl": "https://avatars2.githubusercontent.com/u/11443637?v=4",
+      "Comments": []
     }
   ]
 }
