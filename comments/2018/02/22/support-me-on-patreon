@@ -10,6 +10,16 @@
       "Date": "2020-10-05T15:21:00.7286139+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "tEkt4hI9NwQzXLplxKncWx7h9oR2iCgcMuk0LSkdRLw",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Thanks Jörg!\n\nCurrently it's not about making a profession out of it. But time is limited and money (unfortunately) does not grow on trees.\n\nMy style is an exact copy of the dark theme of VisualStudio so, i think it can't be more .NET :D",
+      "Date": "2020-10-05T15:21:25.0110105+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
