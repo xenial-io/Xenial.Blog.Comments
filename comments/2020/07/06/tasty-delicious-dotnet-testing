@@ -20,6 +20,16 @@
       "Date": "2020-10-05T16:17:56.3582266+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "8jLW8-0WxOxHgUnyMOz9abed3Zwxn6Uybl7ExFpuscI",
+      "Name": "Meziantou",
+      "GithubOrEmail": null,
+      "Homepage": "https://www.meziantou.net/",
+      "Content": "When you write \"That would require an open protocol that IDE's and test executors understand to quickly run tests and report coverage and test outcome back to the IDE\". Do you mean something different from the vstest protocol? [https://github.com/microsoft/vstest-docs/blob/master/RFCs/0003-Test-Execution-Protocol.md](https://github.com/microsoft/vstest-docs/blob/master/RFCs/0003-Test-Execution-Protocol.md)",
+      "Date": "2020-10-05T16:19:24.9959163+02:00",
+      "AvatarUrl": "https://avatars2.githubusercontent.com/u/509220?v=4",
+      "Comments": []
     }
   ]
 }
