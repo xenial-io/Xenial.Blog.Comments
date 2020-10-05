@@ -1,0 +1,15 @@
+{
+  "Id": "2019/05/26/t-is-for-testing-xaf-xpo-test-data-2",
+  "Comments": [
+    {
+      "Id": "x-5YvOGvfPUv_EBe-lTUesQleVbcm94RQDlmyGwrdJc",
+      "Name": "Andre S.",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Great article! Thank you! I'm looking forward to part 3 of the series.\nI really like the ObjectSpaceProviderBuilder and the XpoTypeInfoSourceBuilder. But I'm not sure, if I like the XpObjectBuilder. Of course the fluent style of\n\n```cs\nvar johnDoe = new JohnDoePersonBuilder()\n   .WithObjectSpace<johndoepersonbuilder, person=\"\">(os)\n   .WithSalutation(\"Mrs.\")\n```\n\nlooks quite good. But it necessary to write a lot of stupid code for the builders. A simple static helper like\n\n```cs\nprivate static Person CreateJohnDoe(IObjectSpace os)\n{\n   var person = os.CreateObject<person>();\n   person.FirstName = \"John\";\n   person.LastName = \"Doe\";\n   person.Salutation = \"Mr.\";\n   return person;\n}\n...\n\nvar johnDoe = CreateJohnDoe(os);\njohnDoe.FirstName = \"Jane\";\n```\n\nwill also work. Because we should use public setters for the properties in XAF/XPO, the BuilderPattern does not bring much benefit.\nAm I missing something?",
+      "Date": "2020-10-05T15:47:08.2434392+02:00",
+      "AvatarUrl": null,
+      "Comments": []
+    }
+  ]
+}
