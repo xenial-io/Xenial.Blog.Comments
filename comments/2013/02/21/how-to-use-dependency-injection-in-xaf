@@ -1,0 +1,13 @@
+{
+  "Id": "2013/02/21/how-to-use-dependency-injection-in-xaf",
+  "Comments": [
+    {
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Hi Petre,\n\nyou are absolute right. It IS an antipattern, but you can't control the creation of XPO Objects no'r XAF Controllers. There isn't event a point where you can do properly do Property or Method injection.\n\nThe main reason we use this in XPO Objects is to use some services like logging or Object initializers (AfterConstruction) from client specific assemblies/modules. Of course there are other patterns (EventAggregators, Messaging for example) that can handle this kind of problems, but at the time we didn't know how we can keep track of the objectspace scope.\n\nCause the fact that the lifetime of objects is controlled by XAF & XPO we didn't find a better way to do this.",
+      "Date": "2020-10-05T08:43:42.2314224+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4"
+    }
+  ]
+}
