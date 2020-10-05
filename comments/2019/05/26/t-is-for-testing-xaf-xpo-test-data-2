@@ -30,6 +30,16 @@
       "Date": "2020-10-05T15:49:20.4963867+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "cT4swqlikgp93aNdclvGMfVPljwrttEsK2UD3NSOnr8",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "> Somehow ugly. But do you really expect to see a performance impact?\n\nIt's not only about performance, but rather having a clean dataset in memory. Less side effects for tests.\nPerformance wise: sure not with 100 tests, but if you've got 10000k or more sure! Sums up really quick with datadriven tests.\n\n> Using t4 templates for the builders sounds like a nice approach.\n\nCause I'm hard into dotnet core and msbuild right now (there is as far I know no T4) maybe a msbuild based version would be possible. Another option would be a roslyn analyzer with code fix!\n\nBut to be honest, I don't know it it would be worth the effort, cause builders can be rather complicated. But for a getting started it would be a huge timesaver.",
+      "Date": "2020-10-05T15:50:00.5802155+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
