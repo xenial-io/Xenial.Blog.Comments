@@ -30,6 +30,16 @@
       "Date": "2020-10-05T15:33:15.3954419+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "YxGC9EHQaPZs4ngVz165t3RqZNI_DpMqZbkWewQvh6A",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Okay yeah that makes sense!",
+      "Date": "2020-10-05T15:33:32.6113267+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
