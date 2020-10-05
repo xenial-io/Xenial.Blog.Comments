@@ -10,6 +10,16 @@
       "Date": "2020-10-05T15:25:43.6190296+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "YPsNm-lIFPje9jlyiiWI5-e6hW5fvA_DwEjLoljLpro",
+      "Name": "Alex Miller",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Hi Manuel,\n\nVery well thought. A lot of small details that will really help structure my app and avoid unforeseen problems! Thanks again for this awesome post. A quick question, how do you structure your controller when for example you want to share an action between two BO types that don't share the same base class (other than baseobject)? I use a lot of interfaces like IThumbnail and my ViewController's is set like this `TargetObjectType = typeof(IThumbnail);`\n\nAlex",
+      "Date": "2020-10-05T15:26:49.1192234+02:00",
+      "AvatarUrl": "https://avatars2.githubusercontent.com/u/11443637?v=4",
+      "Comments": []
     }
   ]
 }
