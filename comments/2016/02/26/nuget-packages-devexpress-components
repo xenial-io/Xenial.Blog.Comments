@@ -40,6 +40,16 @@
       "Date": "2020-10-05T10:09:22.5562279+02:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
+    },
+    {
+      "Id": "27J-btS33B-0agtCZ47BdsYMUIe2sWEx4kOeYe9oJi0",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Hi Kirsten!\n\nWe recently updated the project to use dotnet core, seams Like i missed Something.\nI'll check the scripts and let you know what i missed.\nThanks for pointing this out!",
+      "Date": "2020-10-05T10:09:42.699009+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
