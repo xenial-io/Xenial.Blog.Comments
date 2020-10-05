@@ -1,0 +1,15 @@
+{
+  "Id": "2018/03/10/xaf-best-practices-2017-03",
+  "Comments": [
+    {
+      "Id": "sZzwr1TiujG_28giJy19Nz_qoWg3oDkzYMQc3b3rtRg",
+      "Name": "Kirsten Greed",
+      "GithubOrEmail": null,
+      "Homepage": "https://www.softwarebydesign.com.au/",
+      "Content": "Hi Manuel,\nThanks for an excellent post with heaps to learn from.\nI found that I need to set the startup object in the Cli project ( right click->Properties-> Application ) to my version of CliProgram , so as to avoid a \"Compile with /main to specify the type that contains the entry point\" error.\n\nI was unable to find the shared project template in VS 15.9.3 So I cloned the project from your solution.\nI asked about that at [https://stackoverflow.com/questions/53690103/missing-shared-visual-studio-project-template:Dk8xUijReaQQjjjx7dnFOp5LT0M](https://stackoverflow.com/questions/53690103/missing-shared-visual-studio-project-template:Dk8xUijReaQQjjjx7dnFOp5LT0M)\n\nAlso when I upgraded my clone of your solution I had an issue with the Nuget upgrade.\n[https://www.devexpress.com/Support/Center/Question/Details/T698381/nu1102-unable-to-find-package-devexpress-xtrareports-with-version-18-2-3:gIqVCSBS4_DBo4cLvjKUhN4-_SQ](https://www.devexpress.com/Support/Center/Question/Details/T698381/nu1102-unable-to-find-package-devexpress-xtrareports-with-version-18-2-3:gIqVCSBS4_DBo4cLvjKUhN4-_SQ)\n\n[https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net:dCQY-JwyAlzTs12-bFNkpepafjk](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net:dCQY-JwyAlzTs12-bFNkpepafjk) was also helpful to create the package\n\nKirsten",
+      "Date": "2020-10-05T15:25:43.6190296+02:00",
+      "AvatarUrl": null,
+      "Comments": []
+    }
+  ]
+}
