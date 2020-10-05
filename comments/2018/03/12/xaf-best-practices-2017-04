@@ -10,6 +10,16 @@
       "Date": "2020-10-05T15:32:31.1496516+02:00",
       "AvatarUrl": null,
       "Comments": []
+    },
+    {
+      "Id": "EcFquNoinkn99Np1V0Pz0xwgHJq9KZ0uI58qLhL5_hs",
+      "Name": "Manuel Grundner",
+      "GithubOrEmail": null,
+      "Homepage": "https://blog.delegate.at",
+      "Content": "Thanks!\n\nWhat speaks against `ModelNodeIdHelper.GetDetailViewId(typeof(BusinessObject));`?\nThat way you avoid the reflection call.",
+      "Date": "2020-10-05T15:33:00.5796494+02:00",
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
