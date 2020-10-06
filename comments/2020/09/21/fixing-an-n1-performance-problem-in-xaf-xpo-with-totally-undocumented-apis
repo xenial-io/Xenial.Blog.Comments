@@ -60,8 +60,7 @@
           "Content": "I should correct that to: Not be supported out of the box and there are some untested scenarios. :)",
           "Date": "2020-09-21T16:03:14.1850702+02:00",
           "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
-          "Comments": [
-            {
+          "Comments": [{
               "Id": "hv94ofU6v2yAyUnhBJYHpY0pfpD7GLgTsPbox9Hy__w",
               "Name": "Dennis Garavsky",
               "GithubOrEmail": null,
@@ -69,8 +68,7 @@
               "Content": "Your karma has been restored:-)",
               "Date": "2020-09-23T16:46:27.0038218+02:00",
               "AvatarUrl": "https://avatars2.githubusercontent.com/u/5479762?v=4",
-              "Comments": [
-                {
+              "Comments": [{
                   "Id": "h7nobYB2gTmpdzhMg8W4YRlfX0W6P0SSke3GHZcCw_s",
                   "Name": "Manuel Grundner",
                   "GithubOrEmail": null,
@@ -91,8 +89,7 @@
               "Date": "2020-09-21T20:03:04.4432882+02:00",
               "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
               "Comments": []
-            },
-            {
+            },{
               "Id": "Go6gRIDIBbGmWWNumpiCcgISveTQUvM1OGdTb68HlB0",
               "Name": "Manuel Grundner",
               "GithubOrEmail": null,
@@ -101,8 +98,16 @@
               "Date": "2020-09-21T20:00:14.08434+02:00",
               "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
               "Comments": []
-            }
-          ]
+            },{
+            "Id": "fdaTpT1Jtt24lD8POtHGbkuj1q8KACBMr3xtesCpXjc",
+            "Name": "Manuel Grundner",
+            "GithubOrEmail": null,
+            "Homepage": "https://blog.delegate.at",
+            "Content": "TEST",
+            "Date": "2020-10-06T08:51:55.8668458+02:00",
+            "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+            "Comments": []
+          }]
         }
       ]
     },
@@ -126,16 +131,6 @@
           "Comments": []
         }
       ]
-    },
-    {
-      "Id": "fdaTpT1Jtt24lD8POtHGbkuj1q8KACBMr3xtesCpXjc",
-      "Name": "Manuel Grundner",
-      "GithubOrEmail": null,
-      "Homepage": "https://blog.delegate.at",
-      "Content": "TEST",
-      "Date": "2020-10-06T08:51:55.8668458+02:00",
-      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
-      "Comments": []
-    }
+    }    
   ]
 }
