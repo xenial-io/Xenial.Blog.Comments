@@ -68,17 +68,17 @@
               "Content": "Your karma has been restored:-)",
               "Date": "2020-09-23T16:46:27.0038218+02:00",
               "AvatarUrl": "https://avatars2.githubusercontent.com/u/5479762?v=4",
-              "Comments": [{
-                  "Id": "h7nobYB2gTmpdzhMg8W4YRlfX0W6P0SSke3GHZcCw_s",
-                  "Name": "Manuel Grundner",
-                  "GithubOrEmail": null,
-                  "Homepage": "https://blog.delegate.at",
-                  "Content": "![https://media.giphy.com/media/PUBxelwT57jsQ/giphy.gif](https://media.giphy.com/media/PUBxelwT57jsQ/giphy.gif)",
-                  "Date": "2020-09-24T09:47:48.6567831+02:00",
-                  "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
-                  "Comments": []
-                }
-              ]
+              "Comments": []
+            },
+            {
+              "Id": "h7nobYB2gTmpdzhMg8W4YRlfX0W6P0SSke3GHZcCw_s",
+              "Name": "Manuel Grundner",
+              "GithubOrEmail": null,
+              "Homepage": "https://blog.delegate.at",
+              "Content": "![https://media.giphy.com/media/PUBxelwT57jsQ/giphy.gif](https://media.giphy.com/media/PUBxelwT57jsQ/giphy.gif)",
+              "Date": "2020-09-24T09:47:48.6567831+02:00",
+              "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+              "Comments": []
             },
             {
               "Id": "Cte6pqg3PR7AamvKfcprdecqmZXgemSx3_iTEKvBbO4",
@@ -98,7 +98,8 @@
               "Date": "2020-09-21T20:00:14.08434+02:00",
               "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
               "Comments": []
-            },{
+            },
+            {
             "Id": "fdaTpT1Jtt24lD8POtHGbkuj1q8KACBMr3xtesCpXjc",
             "Name": "Manuel Grundner",
             "GithubOrEmail": null,
