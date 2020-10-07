@@ -2,28 +2,34 @@
   "Id": "2013/07/19/introducing-parafluentmodelbuilder",
   "Comments": [
     {
+      "Id": "emBDsEG-2lgiIGuplluqcOgA_ecZVkS_n1jQZXXcjXM",
       "Name": "Apostolis Bekiaris",
       "GithubOrEmail": null,
       "Homepage": "https://apobekiaris.blogspot.com/",
       "Content": "Looks great but i do have a question, what about the Application Model it self? There you can do much more than any framework, it is more flexible and multilayered. I m interested to know why your team prefers to invent a code replacement of the amazing XAF application model. You can simply have many models and apply them as you wish. In eXpand as you probably know there are Global Application and Role models as well. Even multiple design time models are possible as you can see in [xaf-models-xaf-models-and-again-xaf](https://apobekiaris.blogspot.gr/2010/08/xaf-models-xaf-models-and-again-xaf.html)",
       "Date": "2013-07-19T09:15:04.0542836+02:00",
-      "AvatarUrl": "https://avatars3.githubusercontent.com/u/159464?v=4"
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/159464?v=4",
+      "Comments": []
     },
     {
+      "Id": "pdggvKdkgzanLdPA2PZck2nx0Z4-2jh7U-xmOimtIvY",
       "Name": "Manuel Grundner",
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Tolis, It is not a code replacement :) cause it is applied to the TypesInfo before the Model is calculated, it supports the Model. We choose this approach for easier refactoring and code completition reasons. writing attributes lead us to very clutter design, and much errors in our main app is based on typos in string declarations (like spelled a PropertyName / Criterias wrong. ConditionalAppearance for example).\n\nAnother thing i like to mention is the single-responsibility-principle, i don't think the model should know about appearance rules, so i have to put them in another place. But to have them only in the xafml makes it very hard to (unit)test, so now we have the possibility to test them seperate AND fast.\n\nAnother reason is that we can apply all sort of metadata to our model in a centralized place in the project, so every developer knows where to put metadata for XAF. (we have also service applications that only need to know about XPO, but uses the same model)\n\nSometimes we had metadata as attributes, sometimes in the xafml. And we have 9 of them, so it is very hard to tell them where to put them correctly (or to find them when something goes wrong) :)\n\nThanks for your link, didn't know that one, Looks interestring.\n\nPs.: And we are developers, we love code ;)",
       "Date": "2013-07-20T09:18:51.446155+02:00",
-      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4"
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     },
     {
+      "Id": "N28ydb1NLpvbHvZ0Vn9v2f5ws_zfgBXeYFlWfXSWfrc",
       "Name": "Manuel Grundner",
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "From the technical perspective the only thing it does is:\n\n```cs\npublic sealed partial class TestModule : ModuleBase\n{\n    public override void CustomizeTypesInfo(ITypesInfo typesInfo)\n    {\n        base.CustomizeTypesInfo(typesInfo);\n\n        var typeinfo = typesInfo.FindType(typeof(YourObject));\n\n        typeinfo.AddAttribute(new ModelDefaultAttribute(\"Caption\", \"Car\"));\n\n        var memberInfo = typeinfo.FindMember(\"Doors\");\n\n        memberInfo.AddAttribute(new ModelDefaultAttribute(\"Caption\", \"Doors\"));\n\n        typesInfo.RefreshTypeInfo(typeinfo);\n    }\n}\n```",
       "Date": "2013-07-20T09:19:57.2456415+02:00",
-      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4"
+      "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+      "Comments": []
     }
   ]
 }
