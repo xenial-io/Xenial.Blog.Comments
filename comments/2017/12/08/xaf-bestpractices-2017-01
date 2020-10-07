@@ -7,7 +7,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://www.softwarebydesign.com.au/",
       "Content": "Hi Manuel.\n\nI am exploring your code and it looks really interesting.\nI am a bit confused though as I usually create my XAF,CodeFirst EF, solutions using the Wizard.\nI was not aware that XAF could work with .net core.\nCan you advise how to create the solution file?\n\nAh, I will check the next lesson.",
-      "Date": "2018-03-11T02:05:16.7396717+02:00",
+      "Date": "2018-03-11T01:05:16.7396717+01:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
     },
@@ -17,7 +17,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Hi Kirsten!\n\nXAF doesnt Support .net core yet, but xpo does. The other Thing is the new csproj. This works very Well, Just use the .netstandard Templates.\n\nI try to make a Blogpost for further Clearance\n\n:)",
-      "Date": "2018-03-11T08:51:12.1476864+02:00",
+      "Date": "2018-03-11T07:51:12.1476864+01:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     },
@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://www.softwarebydesign.com.au/",
       "Content": "Thanks for the clarification :-) I will look forward to the post. Instructions on how to use the .netstandard Templates would be great!",
-      "Date": "2018-03-11T22:38:42.5388839+02:00",
+      "Date": "2018-03-11T21:38:42.5388839+01:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/1795966?v=4",
       "Comments": []
     },
@@ -37,7 +37,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Thanks for sharing your methodology Manuel. This will come very handy when I tackle my todo item to split my huge base module into smaller more manageable modules. I look forward to the rest of the series.",
-      "Date": "2017-12-11T17:18:25.7318775+02:00",
+      "Date": "2017-12-11T16:18:25.7318775+01:00",
       "AvatarUrl": "https://avatars2.githubusercontent.com/u/11443637?v=4",
       "Comments": []
     },
@@ -47,7 +47,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "@Alex stay tuned for the next Post, it is in the making!",
-      "Date": "2017-12-11T17:56:21.5233666+02:00",
+      "Date": "2017-12-11T16:56:21.5233666+01:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     }
