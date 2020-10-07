@@ -27,7 +27,7 @@
       "GithubOrEmail": null,
       "Homepage": null,
       "Content": "Nothing really and I hear ya, reflection isn't desired. In my use case, I have an inherited base BusinessObject class that implements change tracking (ModifiedBy/On, CreatedBy/On, DeletedBy/On. In the base class I can add the additional properties to expose the ViewIDs for any inherited BusinessObject",
-      "Date": "2019-10-29T11:34:15.3954419+02:00",
+      "Date": "2019-10-29T10:34:15.3954419+01:00",
       "AvatarUrl": null,
       "Comments": []
     },
@@ -37,7 +37,7 @@
       "GithubOrEmail": null,
       "Homepage": "https://blog.delegate.at",
       "Content": "Okay yeah that makes sense!",
-      "Date": "2019-10-30T17:58:32.6113267+02:00",
+      "Date": "2019-10-30T16:58:32.6113267+01:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
     }
