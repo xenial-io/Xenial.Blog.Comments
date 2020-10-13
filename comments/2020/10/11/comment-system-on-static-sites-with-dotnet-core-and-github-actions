@@ -9,7 +9,18 @@
       "Content": "Manuel, I really admire what you've done here.  I've often wondered on the practicalities of effectively rolling one's own blog but have always backed off.  This is proof positive that not only can it be done, but that it works well.  Congratulations",
       "Date": "2020-10-13T09:33:20.5249721+02:00",
       "AvatarUrl": null,
-      "Comments": []
+      "Comments": [
+        {
+          "Id": "9vRqNH7sQlLnH0HklIGvQ9VHecRO3YbbK8xOsohcFvc",
+          "Name": "Manuel Grundner",
+          "GithubOrEmail": null,
+          "Homepage": "https://blog.delegate.at",
+          "Content": "Thank you Dom!",
+          "Date": "2020-10-13T09:58:47.5034547+02:00",
+          "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
+          "Comments": []
+        }
+      ]
     }
   ]
 }
