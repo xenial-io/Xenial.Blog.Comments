@@ -1,0 +1,15 @@
+{
+  "Id": "2020/10/11/comment-system-on-static-sites-with-dotnet-core-and-github-actions",
+  "Comments": [
+    {
+      "Id": "akDANKCfO0mCUMMxy1S-UVx6K6voSwq1cD_9x-H9Kes",
+      "Name": "Dom Sinclair",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "Manuel, I really admire what you've done here.  I've often wondered on the practicalities of effectively rolling one's own blog but have always backed off.  This is proof positive that not only can it be done, but that it works well.  Congratulations",
+      "Date": "2020-10-13T09:33:20.5249721+02:00",
+      "AvatarUrl": null,
+      "Comments": []
+    }
+  ]
+}
