@@ -59,7 +59,18 @@
       "Content": "Hello I'm trying to add text to speech to the component but it's not working ? how to implement it ?",
       "Date": "2021-04-11T16:42:01.4413673+02:00",
       "AvatarUrl": null,
-      "Comments": []
+      "Comments": [
+        {
+          "Id": "s5Nz2vAlbxayM0B5qDP6TIcBFMj78X6F5SBJpVhNd7w",
+          "Name": "Manuel Grundner",
+          "GithubOrEmail": null,
+          "Homepage": "https://blog.delegate.at",
+          "Content": "Hello Andrew!\n\nAlthough I've never implemented any T2S or S2T my self, using the [Direct line approach](https://github.com/microsoft/BotFramework-WebChat/tree/master/samples/03.speech/a.direct-line-speech) should be the most straight forward, because in my sample we create the direct line directly.  \nHowever at this point, it shouldn't be any different from the docs that use react. ",
+          "Date": "2021-04-11T16:58:20.6085541+02:00",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/653905?v=4",
+          "Comments": []
+        }
+      ]
     }
   ]
 }
