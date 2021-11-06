@@ -90,6 +90,16 @@
           "Date": "2021-11-06T13:05:41.7968374+01:00",
           "AvatarUrl": "https://avatars.githubusercontent.com/u/653905?v=4",
           "Comments": []
+        },
+        {
+          "Id": "YHmXD2MT4aGd-A2ztFwERKZlM6NUuWemw1-KAR9nsp4",
+          "Name": "Micheal",
+          "GithubOrEmail": null,
+          "Homepage": null,
+          "Content": "Okay. But  from the image above where it displayed the webchat, the conversation doesn't load up, it shows 'unable to connect' in red, why is that?",
+          "Date": "2021-11-06T21:50:15.0033847+01:00",
+          "AvatarUrl": null,
+          "Comments": []
         }
       ]
     }
