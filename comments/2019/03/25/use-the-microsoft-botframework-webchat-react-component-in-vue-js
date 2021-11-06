@@ -80,7 +80,18 @@
       "Content": "Hi, Nice writeup. Tried this but no conversation is loading up, it keep saying unable to connect (in the web chat). What can I do to fix that. thanks?",
       "Date": "2021-11-06T11:51:53.4695326+01:00",
       "AvatarUrl": null,
-      "Comments": []
+      "Comments": [
+        {
+          "Id": "UAsb2aNB_-Li_KgMU-qsdiZ1eRuYNy4_zwBFnkFAyzw",
+          "Name": "Manuel Grundner",
+          "GithubOrEmail": null,
+          "Homepage": "https://blog.xenial.io",
+          "Content": "Hi Michael!\n\nThats hard to tell, probably its a problem with the directline directly, so best would be to check the dev tools console if the directline is connected correctly.\n\nAs the article is a little bit older, it may also be that there are some dependencies outdated.\n\nIf the normal react sample application is working for you, it should also work in vue.",
+          "Date": "2021-11-06T13:05:41.7968374+01:00",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/653905?v=4",
+          "Comments": []
+        }
+      ]
     }
   ]
 }
