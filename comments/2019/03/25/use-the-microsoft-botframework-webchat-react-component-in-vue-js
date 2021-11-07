@@ -100,6 +100,16 @@
           "Date": "2021-11-06T21:50:15.0033847+01:00",
           "AvatarUrl": null,
           "Comments": []
+        },
+        {
+          "Id": "w9R7mrsVvx-pKLEdaE98cN49JGelddxclFUlgOAgO7k",
+          "Name": "Manuel Grundner",
+          "GithubOrEmail": null,
+          "Homepage": "https://blog.xenial.io",
+          "Content": "As for the screenshot, I have no idea, probably i did it at a stage where my directline token was invalidated, or not wired up correctly yet. It's a while since i did this. But i did check the github project and it still seams to work fine. Although a lot of packages are outdated now.\n\nOf course you need to use your own credentials for creating a direct line and token.",
+          "Date": "2021-11-07T14:33:05.3504779+01:00",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/653905?v=4",
+          "Comments": []
         }
       ]
     }
