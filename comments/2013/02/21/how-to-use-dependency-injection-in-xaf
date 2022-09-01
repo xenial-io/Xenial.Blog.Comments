@@ -9,7 +9,18 @@
       "Content": "Hello Manuel,\n\nI've been thinking of injecting dependencies into XPO objects and XAF Controllers and came across your blog.\n\nIt seems like you are making the container available to business objects? I believe it is a service locator anti-pattern.\n\nI'm suggesting that you rework the solution by introducing dependencies in your classes, as opposed to having _container.Resolve calls, preferably initialized in a constructor (along with Session) or as injectable properties, and build the object graph in the Composition Root, i.e. at application startup.\n\nTake a look at the following: [ServiceLocatorisanAnti-Pattern](https://blog.ploeh.dk/2010/02/03/ServiceLocatorisanAnti-Pattern/) [CompositionRoot](https://blog.ploeh.dk/2011/07/28/CompositionRoot/)\n\nThanks. Petre",
       "Date": "2015-09-03T08:45:44.298343+02:00",
       "AvatarUrl": null,
-      "Comments": []
+      "Comments": [
+        {
+          "Id": "k5lI-RWW368FoWnNEYfrgQKMeaHL1cBSdgzfcuKjKMo",
+          "Name": "Stefan",
+          "GithubOrEmail": null,
+          "Homepage": null,
+          "Content": "Don't worry Petre, XAF is one giant anti-pattern, so one more small one won't hurt!  7 years on from this blog, and it STILL doesn't support this",
+          "Date": "2022-09-02T00:25:12.5767207+02:00",
+          "AvatarUrl": null,
+          "Comments": []
+        }
+      ]
     },
     {
       "Id": "Uv9jWmoI8pYSNs2oBhDx9aDiY6-CCgDG1kJ78rfL2d0",
