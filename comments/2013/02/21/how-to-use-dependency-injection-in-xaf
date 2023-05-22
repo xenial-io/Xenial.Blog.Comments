@@ -41,6 +41,16 @@
       "Date": "2016-02-03T07:43:42.2314224+01:00",
       "AvatarUrl": "https://avatars3.githubusercontent.com/u/653905?v=4",
       "Comments": []
+    },
+    {
+      "Id": "U0IxhKVU_dX8FxA_cse8zu_S9BqNLQAJRGhXY_Raf7U",
+      "Name": "Dennis Garavsky",
+      "GithubOrEmail": null,
+      "Homepage": null,
+      "Content": "XAF v23.1 supports the dependency injection mechanism in Controllers and entity classes natively in .NET 6+ apps (WinForms, Blazor, and Web API Service).\n\n*   [Dependency Injection in Controllers](https://docs.devexpress.com/eXpressAppFramework/404402/application-shell-and-base-infrastructure/dependency-injection-in-xaf-applications/dependency-injection-in-controllers?v=23.1)\n*   [Write Business Object Code that Accesses Services (Use Session or IObjectSpace)](https://docs.devexpress.com/eXpressAppFramework/404403/application-shell-and-base-infrastructure/dependency-injection-in-xaf-applications/access-services-in-business-objects-session-and-i-object-space?v=23.1)\n*   [Implementation Of Dependency Injection Support in Existing Applications](https://docs.devexpress.com/eXpressAppFramework/404404/application-shell-and-base-infrastructure/dependency-injection-in-xaf-applications/implementation-of-dependency-injection-support-in-existing-applications?v=23.1)\n\nThat said, a custom solution from this blog post may no longer be needed.",
+      "Date": "2023-05-22T23:44:06.0678413+02:00",
+      "AvatarUrl": null,
+      "Comments": []
     }
   ]
 }
