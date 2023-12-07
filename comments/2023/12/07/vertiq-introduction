@@ -9,7 +9,18 @@
       "Content": "Well we have been a busy bunny as they say.\n\nVery interesting stuff and I was struck by how familiar the front end code suddenly looks given that I've been wrapping my own head around a lot of full stack stuff recently.",
       "Date": "2023-12-07T10:15:29.7241567+01:00",
       "AvatarUrl": null,
-      "Comments": []
+      "Comments": [
+        {
+          "Id": "Kjjv0SFK3Y8U48RN_JicBp2sN5T61a-WbyE0zU8V4ek",
+          "Name": "Manuel Grundner",
+          "GithubOrEmail": null,
+          "Homepage": "https://blog.delegate.at",
+          "Content": "Thanks Dom!\n\nThe critical part is about vertical slicing features instead of digging through lots of layers. It's still layerd. But not scattert around the code base.",
+          "Date": "2023-12-07T10:44:04.63841+01:00",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/653905?v=4",
+          "Comments": []
+        }
+      ]
     }
   ]
 }
